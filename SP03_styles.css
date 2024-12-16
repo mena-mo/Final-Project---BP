@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/*Monserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+/* Structural Styles */ 
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width:480px){
+	
+	/* ----- Header Styling ----- */
+	header {
+		background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255, 148, 33, 0.8));
+		border-bottom: solid 1px rgb(232, 133, 26);
+		font-family: "Oswald", sans-serif;
+		font-size: 20px;
+	}
+	
+	header h1{
+		color: rgb(36, 92, 125);
+		text-shadow: 0px 0px 1px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242);
+		border-bottom: 2px solid rgb(57, 169, 174);
+		padding-bottom: 10px;
+		font-size: 30px;
+	}
+	
+	/* ----- Navigation List Styles ----- */
+	nav a {
+		color: rgb(57, 169, 174);
+		text-shadow: 0px 0px 1px white, 0px 0px 3px white, 0px 0px 5px white;
+	}
+
+	nav ul li a:hover {
+		color: white;
+	}
+	
+	nav li { /* <--- adds the little lines between the nav links */
+		border-right: solid 2px rgb(57, 169, 174);
+	}
+	
+	nav li:last-of-type{
+		border-right: none;
+	}
+	
+	header nav ul li{
+		list-style:none;
+	}
+	
+	
+	/*----- Link Styles -----*/
+	a{
+		text-decoration: none;
+		color: rgb(36, 92, 125);
+	}
+	
+	a:hover{
+		color: rgb(255, 148, 33);
+	}
+	
+	/* ----- Unordered List Styles ----- */
+	
+	div ul {
+		list-style-type: square;
+		list-style-image: linear-gradient(to left, rgba(255,0,0,0), rgba(237, 163, 43));
+	}
+	
+	/* ----- Header Styles ----- */
+	h1{
+		border-bottom: 3px solid rgb(255, 148, 33);
+		color: rgb(36, 92, 125);
+	}
+	
+	h2{
+		border-bottom: 3px solid rgb(255, 148, 33);
+		color: rgb(36, 92, 125);
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	/* ----- Styles for Pages Under Construction -----*/
+	div#conAlert{
+		text-align: center;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	
+	/* ----- Footer Styles ----- */
+	footer{
+		background-image: linear-gradient(to top, rgba(250, 216, 185, 0.3), rgba(255, 148, 33));
+		color: rgb(36, 92, 125);
+		font-weight: 500;
+	}
+	
+	footer a {
+		color: rgb(57, 169, 174);
+		text-shadow: 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white;
+	}
+	
+	footer a:hover {
+		color: white;
+	}
+	
+}
+
+
+
+
+
+
+
+@media screen and (min-width:481px) {
+	
+	html {
+		background-color:  rgb(25, 147, 195);
+	}
+	
+	body {
+		background-color: rgb(255, 251, 248);
+	}
+	
+	img{
+		border-radius: 15px;
+	}
+	
+	blockquote{
+		border-radius: 15px;
+		background-color: rgba(255, 148, 33, 0.5);
+		box-shadow: 5px 5px 5px rgb(25, 147, 195);
+		font-family: "Oswald", sans-serif;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	
+	figcaption{
+		font-size: 12px;
+	}
+	
+	/* ---- Header Styling*/
+	header {
+		background-image: linear-gradient(to bottom, rgba(250, 216, 185, 0.3), rgba(255, 148, 33));
+		font-family: "Oswald", sans-serif;
+		font-size: 20px;
+	}
+	
+	header h1{
+		font-size: 40px;
+		color: rgb(36, 92, 125);
+		text-shadow: 0px 0px 1px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242);
+		border-bottom: none;
+		border-right: solid 2px rgb(57, 169, 174);
+	}
+	header h3{
+		font-size: 15px;
+		color: rgb(36, 92, 125);
+		text-shadow: 0px 0px 1px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242), 0px 0px 2px rgb(184, 221, 242);
+	}
+	
+	h1{
+		border-bottom: 3px solid rgb(255, 148, 33);
+		color: rgb(36, 92, 125);
+		font-size: 20px;
+	}
+	
+	h2{
+		border-bottom: 3px solid rgb(255, 148, 33);
+		color: rgb(36, 92, 125);
+		font-size: 15px;
+	}
+	
+	header nav ul li{
+		list-style:none;
+	}
+	
+	nav li:last-of-type{
+		border-right: none;
+	}
+	
+	/* ---- Section Styling ----*/
+	section{
+		background-color: rgb(98, 237, 255);
+		border-radius: 20px;
+	}
+	
+	section#dramaMain{
+		background-color: rgb(255, 251, 248);
+		margin-left: 240px;
+	}
+	
+	section#dramaMain h2{
+		border-bottom: 3px solid rgb(255, 148, 33);
+		color: rgb(36, 92, 125);
+		font-size: 15px;
+	}
+	
+	blockquote p::before {
+		content: '\201C';
+	}
+
+	blockquote p::after {
+		content: '\201D';
+	}
+	
+	section#quote blockquote p {
+		background-color: rgba(255, 1255, 255, 0.2);
+		border-radius: 10px;
+		font-size: 20px;
+		color: rgb(36, 92, 125);
+		font-weight: 500;
+	}
+	
+	section#quote p {
+		font-size: 15px;
+	}
+	
+	div ul {
+		list-style-type: square;
+		list-style-image: linear-gradient(to left, rgba(255,0,0,0), rgba(237, 163, 43));
+	}
+	
+	aside{
+		border: 2px solid rgb(237, 163, 43);
+		border-radius: 10px;
+		background-color: rgba(255, 148, 33, 0.1);
+	}
+	
+	aside ul {
+		list-style-type: square;
+		list-style-image: linear-gradient(to left, rgba(255,0,0,0), rgba(237, 163, 43));
+	}
+	
+	div#conAlert{
+		text-align: center;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	
+	/* ----- Link Styles -----*/
+	
+	a {
+		text-decoration: none;
+		color: rgb(36, 92, 125);
+	}
+	
+	a:hover{
+		color: rgb(255, 148, 33);
+	}
+	
+	nav a {
+		color: rgb(57, 169, 174);
+		text-shadow: 0px 0px 1px white, 0px 0px 3px white, 0px 0px 5px white;
+	}
+
+	nav ul li a:hover {
+		color: white;
+	}
+	
+	nav li { /* <--- adds the little lines between the nav links */
+	border-right: solid 2px rgb(57, 169, 174);
+	
+	}
+
+	footer{
+		background-image: linear-gradient(to top, rgba(250, 216, 185, 0.3), rgba(255, 148, 33));
+		color: rgb(36, 92, 125);
+		font-weight: 500;
+	}
+	
+	footer a {
+		color: rgb(57, 169, 174);
+		text-shadow: 0px 0px 1px white, 0px 0px 2px white, 0px 0px 2px white;
+	}
+	
+	footer a:hover {
+		color: white;
+	}
+
+}

@@ -3,3 +3,5 @@ Final project for my beginning programming class. I think it could be better, ho
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 I think in total, this project took around a little less than a month. Of course, it could've taken less but work and other projects got in the way. I also think if I had kept the original color scheme, it could've taken less time. I think the color scheme was actually one of the harder things to pick out, especially when it came to having a certaim amount of contrast. I think it looks a little, tiny bit horrendous, but at least the contrast is there xD. 
+
+All of the images that have the FreePik link are from that site, all others were created by me using Krita. 
